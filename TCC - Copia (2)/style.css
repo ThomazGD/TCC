@@ -1,0 +1,159 @@
+body{
+    background: url(Behance_fundo.png);
+    width: auto;
+    height:auto;
+    
+}
+
+/*menu*/
+ul {
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b0054;  
+    position: relative;
+    bottom: -85px;
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+    transition: background-color 0.5s ease-in-out;
+  }
+  li a:hover {
+    background-color: #e6d700;
+  }
+ .log{
+    transform:translateX(980%)
+ }
+ /*rodape*/
+
+   .rodape {
+    background-color: #3b0054;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  font-size: 20px;
+  margin: 0;
+  }
+  .rodape a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .rodape a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  .info-contato {
+    float: left;
+    margin-right: 40px;
+  }
+  
+
+  .redes-sociais {
+    float: left;
+    font-size: 20px;
+  }
+  
+
+  .clear {
+    clear: both;
+  }
+h3{
+    transform: translateY(-5px);
+}
+.t2{
+  position: relative;
+  text-align: center;
+  bottom: -80px;
+  width: 99%;
+  background-color: #fff34a;
+  border-radius: 10px;
+  padding: 6px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+  height: 80px;
+  width: 100px;
+  border-radius: 20px;
+  border: solid black 2px;
+  margin: 10px;
+  position: absolute;
+  left: 610px;
+  position: relative;
+  bottom: -70px;
+}
+#backToTopBtn {
+  display:flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: wheat;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.games1{
+  position: relative;
+  display: inline-block ;
+  justify-content: center;
+  left: -120px;
+}
+.icon{
+  height: 50px;
+  width:50px;
+  display: inline;
+  position: relative;
+  
+}
+
+.fa-facebook{
+  border: solid black 1px;
+  border-radius: 10px;
+  color: #405DE6;
+}
+.fa-instagram{
+  border: solid black 1px;
+  border-radius: 10px;
+  
+}
+.fa-whatsapp{
+  border: solid black 1px;
+  border-radius: 10px;
+  color: #20b72c;
+}
+.fa-phone{
+  color:green;
+}
+#logo1{
+  position: relative;
+  bottom: -20px;
+  border: none;
+  border-radius: 0;
+  height: 100px;
+  width: 200px; 
+  left: -50px;
+}
+.slogan1{
+  display: inline-flex;
+}
+.slogan{
+  font-family:impact, Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+}
